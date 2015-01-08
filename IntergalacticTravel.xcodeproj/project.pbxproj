@@ -14,6 +14,7 @@
 		9153AC5C1A5C4B57000F5E03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9153AC5B1A5C4B57000F5E03 /* Images.xcassets */; };
 		9153AC5F1A5C4B57000F5E03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9153AC5D1A5C4B57000F5E03 /* LaunchScreen.xib */; };
 		9153AC6B1A5C4B57000F5E03 /* IntergalacticTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9153AC6A1A5C4B57000F5E03 /* IntergalacticTravelTests.m */; };
+		9153AC761A5C560B000F5E03 /* VacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9153AC751A5C560B000F5E03 /* VacationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9153AC641A5C4B57000F5E03 /* IntergalacticTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9153AC691A5C4B57000F5E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9153AC6A1A5C4B57000F5E03 /* IntergalacticTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalacticTravelTests.m; sourceTree = "<group>"; };
+		9153AC741A5C560B000F5E03 /* VacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationViewController.h; sourceTree = "<group>"; };
+		9153AC751A5C560B000F5E03 /* VacationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				9153AC551A5C4B57000F5E03 /* ViewController.h */,
 				9153AC561A5C4B57000F5E03 /* ViewController.m */,
 				9153AC581A5C4B57000F5E03 /* Main.storyboard */,
+				9153AC741A5C560B000F5E03 /* VacationViewController.h */,
+				9153AC751A5C560B000F5E03 /* VacationViewController.m */,
 				9153AC5B1A5C4B57000F5E03 /* Images.xcassets */,
 				9153AC5D1A5C4B57000F5E03 /* LaunchScreen.xib */,
 				9153AC4E1A5C4B57000F5E03 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				9153AC571A5C4B57000F5E03 /* ViewController.m in Sources */,
 				9153AC541A5C4B57000F5E03 /* AppDelegate.m in Sources */,
 				9153AC511A5C4B57000F5E03 /* main.m in Sources */,
+				9153AC761A5C560B000F5E03 /* VacationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

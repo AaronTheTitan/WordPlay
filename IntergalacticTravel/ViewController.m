@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "VacationViewController.h"
+
 
 @interface ViewController ()
 
@@ -16,12 +18,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UIButton *)sender{
+    VacationViewController *vc = segue.destinationViewController;
+    vc.title = sender.currentTitle;
+
+    if ([segue.identifier isEqualToString:@"redDwarf"]) {
+        vc.image = [UIImage imageNamed:@"redDwarf"];
+    } else {
+        vc.image = [UIImage imageNamed:@"blueStar"];
+    }
+}
+
+- (IBAction)unwindAndBookIt:(UIStoryboardSegue *)segue {
+    NSLog(@"It's been BOOKED!");
 }
 
 @end
